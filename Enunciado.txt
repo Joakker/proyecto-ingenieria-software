@@ -6,3 +6,9 @@ local para ponderarlo a nivel nacional y mundial.
 Ver que se esta haciendo y que no se esta haciendo, para en efecto mejorar esos aspectos de las actividades y progragamos, buscando correlacionarlo de mejor manera
 con las ODS y generar un reporte.
 
+Anotaciones:
+    - Categorizacion de las actividades con sus progresos.
+    - Generacion de reportes con los resultados y posibles mejoras.
+    - Medicion del impacto a la ODS apuntada por la actividad.
+    - Estandarizar la informacion de las actividades.
+    
