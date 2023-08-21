@@ -1,0 +1,8 @@
+El usuario es la Universidad de Concepcion junto con Los que administran las actividades que fomentan las ODS
+Nuestra posible solucion es unificar todos lo datos de las distintas facultades y carreras en relacion a las actividades realizadas que fomentan las ODS o su objetivo en general.
+Esta solucion vendria en el formato de una aplicacion web donde tendrian acceso tanto los administradores de dichas actividades como la administracion de la Universidad
+El objetivo es correlacionar los ODS con las actividades que realizan las distintas facultades de la universidad, para asi tambien ver los fallos y como mejorarlos, para asi entregar un avance 
+local para ponderarlo a nivel nacional y mundial.
+Ver que se esta haciendo y que no se esta haciendo, para en efecto mejorar esos aspectos de las actividades y progragamos, buscando correlacionarlo de mejor manera
+con las ODS y generar un reporte.
+
