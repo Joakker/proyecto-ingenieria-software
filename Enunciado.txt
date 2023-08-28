@@ -11,4 +11,16 @@ Anotaciones:
     - Generacion de reportes con los resultados y posibles mejoras.
     - Medicion del impacto a la ODS apuntada por la actividad.
     - Estandarizar la informacion de las actividades.
+
+
+Requerimientos planteados:
+    - Login con la cuenta de udec
+    - Creación de grupos
+    - Cada grupo tiene una homepage donde detallan su proyecto y el avance del mismo
+    - 
+
+
+Problematica:
+La Universidad de Concepcion requiere saber de manera expedita el avance de todos los proyectos y actividades realizadas en la universidad que aportan a la
+agenda 2030 
     
