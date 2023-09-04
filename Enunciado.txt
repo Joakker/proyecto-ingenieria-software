@@ -17,6 +17,7 @@ Requerimientos planteados:
     - Login con la cuenta de udec
     - Creación de grupos
     - Cada grupo tiene una homepage donde detallan su proyecto y el avance del mismo
+        - Opcional: Proyecto se archiva como abandonado si es necesario
     - 
 
 
