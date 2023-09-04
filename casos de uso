@@ -1,0 +1,37 @@
+Casos uso
+
+Caso de uso ej clase: Paciente ingresando a la plataforma
+Actor: Paciente
+Descripción: Paciente debe poder ingreaar al sistema para tener acceso a su ficha clínica
+
+Requisitos previos: Paciente debe haber creado una cuenta con su usuario y contraseña además de haberse atendido por lo manos una vez en el hospital
+Flujo Basico: 
+1. Paciente abre la página del hospital 
+2. Hará click en "Iniciar sesión como paciente"
+3. Ingresará su usuario y contraseña
+4. Hará click en "iniciar sesión"
+5. Sistema comprobará si los datos son validos
+6. Si los datos son validos se le dará acceso a la plataforma de pacientes y a su ficha clinica
+Flujo alternativo:
+5. Si los datos son inválidos se mostrará un mesnaje de error y el paciente podrá volver a ingresar sus datos
+6. Si olvidó su contraseña hará click en el botón "olvidé mi contraseña" ubicado abajo del cuadro para ingresar usuario y contraseña
+7. Lo redireccionará a una nueva pagina
+8. ingresará su usuario y correo
+Post condiciones: 
+
+Caso de uso 1: ingreso y visualización de datos de actividades
+Actor: estudiantes y funcionarios Udec que a su vez son encargados de actualizar los datos
+Descripción: Se hará ingreso de datos sobre las actividades que se realicen en la UDEC que tenga relación con las ODS.
+
+Requisitos previos: Ser estudiante o funcionario de la UDEC y participar de actividades
+Flujo Basico:
+1. Se abre la aplicación 
+2. Se selecciona "Ingreso de datos de actividades"
+3. Se hará click en iniciar sesión como usuario udec
+4. ingresa usuario y contraseña
+5. sistema comprobará si los datos son validos y si el usuario efectivamente pertenece a la udec y es encargado
+6. Si los datos son validos se le dará acceso a la plataforma
+
+Flujo de exito:
+1. Ingresar a la plataforma
+2. 
