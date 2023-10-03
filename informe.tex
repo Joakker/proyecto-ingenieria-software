@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{Ingeniería Software - Proyecto semestral \\ Entrega 1 }
+\author{Grupo 5}
+\date{September 2023}
+
+\begin{document}
+
+\maketitle
+
+\section{Introducción}
+
+Nuestra solución consiste en una plataforma virtual, la cual puede ser ingresada tanto por los médicos como por el personal administrativo, a fin de coordinar de mejor manera la atención de los pacientes a través del tiempo.
+
+\section{Modelado de negocio}
+\subsection*{Casos de usuario}
+Como médico debo:
+\begin{enumerate}
+    \item{Tener acceso a la ficha clínica del paciente, pero sólo si está asignado a mí}
+    \item{Poder coordinarme con los demás doctores que tratan a ese mismo paciente}
+    \item{Saber a quién y cuándo debo tratar}
+    \item{Dejar constancia de qué medicamentos debe tomar el paciente y cuáles no debe tomar}
+\end{enumerate}
+\vspace{5mm}
+Como farmacéutico debo:
+\begin{enumerate}
+    \item{Saber qué medicamentos debe tomar cada paciente}
+    \item{Saber qué medicamentos están disponibles}
+\end{enumerate}
+\vspace{5mm}
+Como personal administrativo debo:
+\begin{enumerate}
+    \item{Poder agendar, mover y cancelar las horas médicas según sea necesario}
+    \item{Revisar qué doctores están disponibles en un día}
+\end{enumerate}
+
+\section{Requerimientos}
+\begin{enumerate}
+    \item{Nombre, rut de los pacientes}
+    \item{Existencias de medicamentos en la farmacia}
+    \item{Nombre, especialidad, horarios de cada profesional que trabaje en el hospital}
+\end{enumerate}
+\end{document}
+
