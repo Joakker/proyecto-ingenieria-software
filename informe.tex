@@ -1,19 +1,44 @@
 \documentclass{article}
 \usepackage{graphicx} % Required for inserting images
+\usepackage[spanish]{babel}
+\usepackage{ragged2e}
+\usepackage{atbegshi}  % Required to position graphics
+
+\newcommand{\universitylogo}{%
+  \AtBeginShipoutNext{\AtBeginShipoutUpperLeft{%
+    \includegraphics{escudo_udec.png}  % Adjust the width as needed
+  }}%
+}
+
+
+
 
 \title{Ingeniería Software - Proyecto semestral \\ Entrega 1 }
 \author{Grupo 5}
-\date{September 2023}
+\date{\today}
 
 \begin{document}
-
+\universitylogo
+\justifying
 \maketitle
 
 \section{Introducción}
 
-Nuestra solución consiste en una plataforma virtual, la cual puede ser ingresada tanto por los médicos como por el personal administrativo, a fin de coordinar de mejor manera la atención de los pacientes a través del tiempo.
+La Organización de Las Naciones Unidas (ONU) buscaba principalmente el crecimiento económico y dejaba de lado el tema del desarrollo humano y medio ambiente. Se ha propuesto la Agenda 2030 para el Desarrollo Sostenible, un ambicioso marco de referencia compuesto por 17 Objetivos de Desarrollo Sostenible (ODS). Esta agenda, ratificada por 193 Estados miembros, es el camino a seguir para un desarrollo socio-económico y ambiental con vistas al año 2030.
 
+Las instituciones de educación superior, como la Universidad de Concepción, desempeñan un papel clave en la contribución hacia este esfuerzo global, sin embargo, el monitoreo que sigue las contribuciones de la Universidad a las ODS aún se presenta como un desafío. Aquí radica nuestro problema central de información.
+
+Para resolver esto, se propone el desarrollo de una solución software que permita a los principales responsables de la universidad monitorear su contribución a los ODS. Este sistema permitirá que los 3  ejes de acción, Formación, Investigación y Vinculación con el Medio, demuestren explícitamente su contribución a los ODS.
+
+Los administradores de la universidad podrán consultar estos datos, con indicadores claros que reflejen el estado actual de la contribución a los ODS y su progreso en el tiempo. Del mismo modo, también ayudará a las autoridades de cada Facultad a conocer el comportamiento de esta, lo cual permitirá una toma de decisiones informada para mejorar aún más su contribución a los ODS.
+
+Esta solución software propuesta permitirá conocer los aportes de cada Facultad a los ODS , facilitando al mismo tiempo un seguimiento efectivo y la toma de decisiones basada en datos para un mundo mejor.
+
+\clearpage
 \section{Modelado de negocio}
+
+La solución planteada para este problema consiste en una aplicación web, que implementa un mapa de colores por facultad, donde se indica el grado de aporte en ciertas áreas de las ODS  de cada facultad. Al hacer click en la facultad se mostrará la información de en qué sector de los 3 ejes (Formación, Investigación, Vinculación con el Medio) se genera mayor aporte y como. Dentro del sistema habrá una opción de generar un reporte general para poder mejorar las áreas que estén deficientes e impulsar las áreas que estén fuertes.
+
 \subsection*{Casos de usuario}
 Como médico debo:
 \begin{enumerate}
